@@ -19,28 +19,29 @@ In this task, an EC2 instance was provisioned using Terraform and Strapi was ins
 - Allowed ports 22 and 1337 in Security Group
 
 ### 2. Connect to EC2
-```bash
-ssh -i <key.pem> ubuntu@<EC2-PUBLIC-IP>
+<!-- ```bash
+ssh -i <key.pem> ubuntu@<EC2-PUBLIC-IP> -->
 
 
-3. Install Node.js & npm
+# 3. Install Node.js & npm
 
 sudo apt update
 sudo apt install nodejs npm -y
 
-4. Install Strapi
+# 4. Install Strapi
 
 npx create-strapi-app@latest strapi-app-for-task3
 cd strapi-app-for-task3
 
-5. Run Strapi
+# 5. Run Strapi
 
 npm run develop 
 
-6. Access Admin Panel
+# 6. Access Admin Panel
 
 http://<EC2-PUBLIC-IP>:1337/admin
 
-Result :- 
+### Result :- 
 
 Strapi was successfully running on the EC2 instance and the admin panel was accessible via browser.
+
