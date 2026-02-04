@@ -19,8 +19,8 @@ In this task, an EC2 instance was provisioned using Terraform and Strapi was ins
 - Allowed ports 22 and 1337 in Security Group
 
 ### 2. Connect to EC2
-<!-- ```bash
-ssh -i <key.pem> ubuntu@<EC2-PUBLIC-IP> -->
+<!-- ```bash -->
+ssh -i <key.pem> ubuntu@<EC2-PUBLIC-IP>
 
 
 # 3. Install Node.js & npm
